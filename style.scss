@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+@mixin mq-sp {
+    @media screen and (max-width: 780px) {
+        @content;
+    }
+}
+
+@keyframes openingKv {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.main-visual {
+    background: url(./img/Expand\ Connect\ Official\ Website.JPG);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: 100px; */
+    animation: openingKv 5s ease both;
+    @include mq-sp{
+        background-position: left;
+
+    }
+}
+
