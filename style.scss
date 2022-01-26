@@ -24,7 +24,8 @@
     background-size: cover;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
+    margin-top: -50px;
     /* margin-bottom: 100px; */
     animation: openingKv 5s ease both;
     @include mq-sp{
