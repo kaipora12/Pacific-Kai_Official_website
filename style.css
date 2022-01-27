@@ -15,6 +15,7 @@
     opacity: 1;
   }
 }
+
 *{
   margin: 0;
   padding: 0;
@@ -29,11 +30,11 @@ align-items: center;
 height: 90px;
 }
 
-header{
+.header-left {
   color: white;
   font-size: 13px;
-  padding-left: 80px;
-  font-family: 'Oswald', sans-serif;
+  padding-left: 13px;
+  font-family: 'Saira Condensed', sans-serif;
 }
 
 .h1 {
@@ -48,14 +49,13 @@ header{
 .nav > li > a {
   color: white;
   font-size: 15px;
-  margin: 15px;
+  margin: 20px;
   text-decoration: none;
   font-family: 'Oswald', sans-serif;
 }
 
-
 .main-visual {
-  background: url(./img/Expand\ Connect\ Official\ Website.JPG);
+  background-image: url(./img/Expand\ Connect\ Official\ Website.JPG);
   height: 100vh;
   width: 100%;
   margin: none;
@@ -76,10 +76,24 @@ header{
           animation: openingKv 5s ease both;
 }
 
+/* .main-visual__title {
+  font-family: 'Oswald', sans-serif;
+  position: relative;
+  top: -5%;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  font-size: 80px;
+} */
+
+
 @media screen and (max-width: 780px) {
   .main-visual {
-    background-position: left;
+    background-position: center;
   }
 }
+
+
 
 /*# sourceMappingURL=style.css.map */
