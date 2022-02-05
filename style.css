@@ -33,7 +33,7 @@ height: 90px;
 .header-left {
   color: white;
   font-size: 13px;
-  padding-left: 13px;
+  padding-left: 25px;
   font-family: 'Saira Condensed', sans-serif;
 }
 
@@ -54,8 +54,30 @@ height: 90px;
   font-family: 'Oswald', sans-serif;
 }
 
+.nav > li > a {
+  position: relative;
+}
+
+.nav li a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  width: 80%;
+  height: 2px;
+  background:white;
+  transition: all .3s;
+  transform: scale(0, 1);
+  transform-origin: center top;
+}
+
+.nav li.current a::after,
+.nav li a:hover::after {
+    transform: scale(1, 1);
+}
+
 .main-visual {
-  background-image: url(./img/Expand\ Connect\ Official\ Website.JPG);
+  background-image: url(./img/KAI\ ExpandConnect\ official\ web\ site.jpg);
   height: 100vh;
   width: 100%;
   margin: none;
@@ -87,6 +109,13 @@ height: 90px;
   font-size: 80px;
 } */
 
+h2 {
+  margin-top: 80px;
+  padding: 25px, 25px, 25px, 25px;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
 
 @media screen and (max-width: 780px) {
   .main-visual {
@@ -159,6 +188,28 @@ height: 90px;
 
 .slick-dots .slick-active button{
     background:#333;
+}
+
+h3 {
+  margin-top: 80px;
+  padding: 25px, 25px, 25px, 25px;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.instagram {
+  display: flex;
+  background-color: black;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 30px;
 }
 
 
