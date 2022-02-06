@@ -199,12 +199,15 @@ h3 {
   font-family: 'Oswald', sans-serif;
   background-color: black;
   color: white;
+  margin-bottom: 0px;
 }
 
 .instagram {
   display: flex;
   background-color: black;
+  margin-bottom: 0px;
 }
+
 
 footer {
   background-color: black;
