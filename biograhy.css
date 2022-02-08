@@ -18,6 +18,7 @@
     padding-left: 25px;
     font-family: 'Saira Condensed', sans-serif;
   }
+
   
   .h1 {
     margin-left: 10px;
@@ -57,14 +58,46 @@
   .nav li a:hover::after {
       transform: scale(1, 1);
   }
-
-  footer {
-    background-color: black;
-    text-align: center;
-    color: white;
-    font-size: 30px;
-  }
   
-.profile {
+.biograhy {
+text-align: center;
+font-size: 50px;
+font-family: 'Oswald', sans-serif;
+padding: 40px 40px 40px 40px;
+}
+
+.picture {
+  background-image: url(./img/biography.jpg);
+  width: 800px;
+  height: 180vh;
+  margin-top: 100px;
+  margin-left: 199px;
+  margin-bottom: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  background-position: center;
+  border-radius: 5px;
+  display: block;
 
 }
+
+@media screen and (max-width: 800px) {
+  .picture {
+    background-position: right;
+    margin-right: 1000px;
+    display: flexbox;
+  }
+}
+
+footer{
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
