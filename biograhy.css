@@ -23,6 +23,18 @@
   .h1 {
     margin-left: 10px;
   }
+
+  a {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  a:hover {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+  }
   
   .nav {
     display: flex;
@@ -68,19 +80,11 @@ padding: 40px 40px 40px 40px;
 
 .picture {
   background-image: url(./img/biography.jpg);
-<<<<<<< HEAD
   width: 500px;
   height: 700px;
   margin-top: 20px;
   margin-bottom: 400px;
   margin: auto;
-=======
-  width: 800px;
-  height: 180vh;
-  margin-top: 100px;
-  margin-left: 199px;
-  margin-bottom: 400px;
->>>>>>> 17fac28be16a69cc09ca9f1be4c9fac562084add
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -91,15 +95,10 @@ padding: 40px 40px 40px 40px;
   background-position: center;
   border-radius: 5px;
   display: block;
-<<<<<<< HEAD
-=======
-
->>>>>>> 17fac28be16a69cc09ca9f1be4c9fac562084add
 }
 
 @media screen and (max-width: 800px) {
   .picture {
-<<<<<<< HEAD
     display: flexbox;
   }
 }
@@ -156,18 +155,3 @@ footer{
   color: white;
   font-size: 30px;
 }
-=======
-    background-position: right;
-    margin-right: 1000px;
-    display: flexbox;
-  }
-}
-
-footer{
-  background-color: black;
-  text-align: center;
-  color: white;
-  font-size: 30px;
-}
-
->>>>>>> 17fac28be16a69cc09ca9f1be4c9fac562084add

@@ -110,12 +110,31 @@ height: 90px;
   font-size: 80px;
 } */
 
-h2 {
+.news {
   margin-top: 80px;
   padding: 25px, 25px, 25px, 25px;
   font-size: 50px;
   text-align: center;
   font-family: 'Oswald', sans-serif;
+}
+
+.news span{
+	opacity: 0;
+}
+.news.appearRandomtext span{ 
+	animation:text_randomanime_on .5s ease-out forwards;
+}
+
+@keyframes text_randomanime_on {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+
+.news.appearRandomtext span:nth-child(2n) {
+	animation-delay: .5s;
+}
+.news.appearRandomtext span:nth-child(3n+1) {
+	animation-delay: .15s;
 }
 
 @media screen and (max-width: 780px) {
@@ -191,7 +210,7 @@ h2 {
     background:#333;
 }
 
-h3 {
+.insta {
   margin-top: 80px;
   padding: 25px, 25px, 25px, 25px;
   font-size: 50px;
@@ -208,9 +227,7 @@ h3 {
   margin-bottom: 0px;
 }
 
-
-
-h4 {
+.tweet {
   margin-top: 0px;
   padding: 25px, 25px, 25px, 25px;
   font-size: 50px;
