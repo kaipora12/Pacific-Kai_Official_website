@@ -18,6 +18,7 @@
     padding-left: 25px;
     font-family: 'Saira Condensed', sans-serif;
   }
+
   
   .h1 {
     margin-left: 10px;
@@ -57,14 +58,88 @@
   .nav li a:hover::after {
       transform: scale(1, 1);
   }
+  
+.biograhy {
+text-align: center;
+font-size: 50px;
+font-family: 'Oswald', sans-serif;
+padding: 40px 40px 40px 40px;
+}
 
-  footer {
-    background-color: black;
-    text-align: center;
-    color: white;
-    font-size: 30px;
+.picture {
+  background-image: url(./img/biography.jpg);
+  width: 500px;
+  height: 700px;
+  margin-top: 20px;
+  margin-bottom: 400px;
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  background-position: center;
+  border-radius: 5px;
+  display: block;
+}
+
+@media screen and (max-width: 800px) {
+  .picture {
+    display: flexbox;
+  }
+}
+
+.picture{
+  animation-name:fadeUpAnime;
+  animation-duration: .5s;
+  animation-fill-mode:forwards;
+  opacity:0;
   }
   
-.profile {
+  @keyframes fadeUpAnime{
+    from {
+      opacity: 0;
+    transform: translateY(100px);
+    }
+  
+    to {
+      opacity: 1;
+    transform: translateY(0);
+    }
+  }
 
+.biograhy span{
+	opacity: 0;
+}
+.biograhy.appearRandomtext span{ 
+	animation:text_randomanime_on .5s ease-out forwards;
+}
+
+@keyframes text_randomanime_on {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+
+.biograhy.appearRandomtext span:nth-child(2n) {
+	animation-delay: .5s;
+}
+.biograhy.appearRandomtext span:nth-child(3n+1) {
+	animation-delay: .15s;
+}
+
+.name {
+  text-align: center;
+ font-size: 80px;
+font-family: 'Oswald', sans-serif;
+padding: 40px 40px 40px 40px;
+}
+
+
+footer{
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 30px;
 }

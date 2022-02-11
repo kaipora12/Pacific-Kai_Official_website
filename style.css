@@ -209,6 +209,26 @@ h3 {
 }
 
 
+
+h4 {
+  margin-top: 0px;
+  padding: 25px, 25px, 25px, 25px;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  background-color: black;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.twitter {
+background-color: black;
+margin-top: 0px;
+margin-bottom: 0px;
+position: center;
+text-align: center;
+}
+
 footer {
   background-color: black;
   text-align: center;
