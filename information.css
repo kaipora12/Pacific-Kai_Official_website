@@ -70,10 +70,27 @@
       transform: scale(1, 1);
   }
 
+  .info {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 30px;
+  }
+
+  p {
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Wire One', sans-serif;
+    margin-bottom: 30px;
+  }
+
+
+
   footer {
     background-color: black;
     text-align: center;
     color: white;
     font-size: 30px;
+    margin-bottom: 0px;
   }
   
