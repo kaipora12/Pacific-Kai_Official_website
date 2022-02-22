@@ -81,13 +81,23 @@
 
   .title {
     color: skyblue;
+    /* color: #fff; */
+    /* mix-blend-mode: difference; */
     font-size: 60px;
     font-weight: bold;
     font-family: 'Oswald', sans-serif;
     padding-top: 15px;
     padding-left: 20px;
-    text-shadow: 3px 3px 0 black;
+    text-shadow: 3px 3px 0 black; 
   }
+  @media only screen and (max-width:600px) {
+    .title {
+        font-family: 'Oswald', sans-serif;
+        color: #fff;
+        mix-blend-mode: difference;
+    }
+}
+
 
   .box2{
     animation-name:fadeDownAnime;
@@ -240,6 +250,11 @@ animation: shine 0.7s;
       max-width: 100%;
     }
   } */
+  .acount a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+  }
   footer {
     background-color: black;
     text-align: center;

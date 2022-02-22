@@ -322,6 +322,11 @@ opacity: 0;
   animation-delay: .15s;
 }
 
+.acount a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
   footer {
     background-color: black;
     text-align: center;

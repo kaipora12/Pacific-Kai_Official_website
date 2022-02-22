@@ -200,6 +200,11 @@ h6 {
   margin-bottom: 300px;
 }
 
+.acount a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
 
 footer{
   background-color: black;

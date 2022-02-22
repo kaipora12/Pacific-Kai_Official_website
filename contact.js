@@ -1,18 +1,5 @@
-$('.slider').slick({
-    autoplay: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    prevArrow: '<div class="slick-prev"></div>',
-    nextArrow: '<div class="slick-next"></div>',
-    centerMode: true,
-    variableWidth: true,
-    dots: true,
-});
-
 function TextRandomAnimeControl() {
-	$('.news,.insta,.tweet').each(function () {
+	$('.title').each(function () {
 		var elemPos = $(this).offset().top - 50;
 		var scroll = $(window).scrollTop();
 		var windowHeight = $(window).height();
@@ -31,7 +18,7 @@ $(window).scroll(function () {
 
 
 $(window).on('load', function () {
-	var element = $(".news,.insta,.tweet");
+	var element = $(".title");
 	element.each(function () {
 		var text = $(this).text();
 		var textbox = '';
@@ -43,4 +30,3 @@ $(window).on('load', function () {
 
 	TextRandomAnimeControl();
 });
-

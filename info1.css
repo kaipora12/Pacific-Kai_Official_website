@@ -114,6 +114,11 @@
     background-position: 99% 50%;
 }
 
+.acount a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
 footer {
     background-color: black;
     text-align: center;

@@ -115,6 +115,11 @@ body {
   }
   
 
+  .acount a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+  }
   footer {
     background-color: black;
     text-align: center;
