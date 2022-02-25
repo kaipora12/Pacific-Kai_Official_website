@@ -20,6 +20,8 @@
 @media screen and (max-width:600px) {
     .main {
         font-size: 30px;
+        margin-bottom: 50px;
+        margin-top: 50px;
     }
     p {
         font-size: 13px;
@@ -34,12 +36,14 @@
         display: block;
         font-family: 'Oswald', sans-serif;
         text-align: center;
+        font-size: 20px;
     }
 }
 
 @media screen and (max-width:600px) {
     img {
         text-align: center;
+        margin-bottom: 40px;
     }
     .text{
         display: none; 

@@ -119,6 +119,12 @@ height: 90px;
           animation: openingKv 5s ease both;
 }
 
+@media screen and (max-width:600px) {
+  .main-visual {
+    height:60vh ;
+    width: 100%;
+  }
+}
 /* .main-visual__title {
   font-family: 'Oswald', sans-serif;
   position: relative;
@@ -249,8 +255,9 @@ height: 90px;
 @media screen and (max-width:600px) {
   .instagram {
     display: flex;
-    max-width: 10px;
     height: auto;
+    width: 50vh;
+    height: 40vh;
   }
 }
 

@@ -88,6 +88,7 @@
   height: 210px;
   border-radius: 10px;
 }
+
 .top-topics {
   display: flex;
   justify-content: center;
@@ -145,6 +146,12 @@
   }
   .top .title {
     font-size: 25px;
+  }
+  .top-news img {
+    width: 30vh;
+  }
+  .title h1 {
+    font-size: 10px;
   }
 }
 
@@ -208,8 +215,11 @@
   .text-two {
     display: none;
   }
-  .top .title {
-    font-size: 25px;
+  .second .title-two {
+    font-size: 20px;
+  }
+  .second-news img {
+    width: 30vh;
   }
 }
 
@@ -277,6 +287,12 @@
   .third .title {
     font-size: 5px;
     font-family: 'Oswald', sans-serif;
+  }
+  .third-news img {
+    width: 30vh;
+  }
+  .third .title-three {
+    font-size: 20px;
   }
 }
 
