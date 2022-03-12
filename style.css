@@ -285,12 +285,10 @@ height: 90px;
   color: white;
   margin-bottom: 0px;
 }
-/* .twitter {
-  margin-top: 200px;
+.twitter { 
+  text-align: center;
+  background-color: black;
 }
-.twitter body {
-  color: black;
-} */
 
 .acount a {
   text-decoration: none;
