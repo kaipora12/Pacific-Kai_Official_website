@@ -142,6 +142,8 @@ height: 90px;
   font-size: 50px;
   text-align: center;
   font-family: 'Oswald', sans-serif;
+  /* color: white; */
+  /* background-color: black; */
 }
 
 .news,.insta,.tweet span{
@@ -173,6 +175,7 @@ height: 90px;
   .slider {
     width:94%;
     margin:0 auto;
+    /* background-color: black; */
 }
 
 .slider img {
@@ -236,47 +239,65 @@ height: 90px;
     background:#333;
 }
 
+.paint{
+  margin-top: 0px;
+  padding: 25px, 25px, 25px, 30px;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  background-color: gray;
+  color: white;
+  margin-bottom: 0px;
+}
+.box img {
+  width:50%;
+  height: 510px;
+  /* text-align: center; */
+  flex: center;
+  margin-bottom: 30px;
+  text-decoration: none;
+  list-style: none;
+}
+.box > li {
+  text-decoration: none;
+  list-style: none;
+}
+.box{
+  text-align: center;
+  background-color: gray;
+  margin-bottom: 25px;
+}
+
+@media screen and (max-width:600px) {
+  .box img {
+    width:50%;
+    height: 310px;
+  }
+}
+
+
 .insta {
   margin-top: 80px;
   padding: 25px, 25px, 25px, 25px;
   font-size: 50px;
   text-align: center;
   font-family: 'Oswald', sans-serif;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   margin-bottom: 0px;
 }
 
-
-.instagram {
-  background-color: black;
+ .instagram { 
+  margin:0 auto;
+	max-width: 530px;
+  color: black;
+  font-size: 50px;
+  text-align: center;
   font-family: 'Oswald', sans-serif;
-  margin-top: 0px;
-}
-.card-group {
-  display: none;
-  font-family: 'Oswald', sans-serif;
-}
-
-
-@media screen and (max-width:600px) {
-  .instagram {
-    color: black;
-  }
-  .card-deck {
-    display: none;
-  }
-  .card .card-body {
-    text-align: left;
-    font-family: 'Oswald', sans-serif;
-  }
-  .card-group {
-    display: block;
-  }
-}
+} 
 
 .tweet {
-  /* margin-top: 0px; */
+  margin-top: 0px;
   padding: 25px, 25px, 25px, 25px;
   font-size: 50px;
   text-align: center;
@@ -288,6 +309,7 @@ height: 90px;
 .twitter { 
   text-align: center;
   background-color: black;
+  /* margin-top: 0px; */
 }
 
 .acount a {
