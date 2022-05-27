@@ -12,7 +12,7 @@ $('.slider').slick({
 });
 
 function TextRandomAnimeControl() {
-	$('.news,.insta,.tweet, .paint').each(function () {
+	$('.news,.insta,.tweet, .paint, .programmer').each(function () {
 		var elemPos = $(this).offset().top - 50;
 		var scroll = $(window).scrollTop();
 		var windowHeight = $(window).height();
@@ -31,7 +31,7 @@ $(window).scroll(function () {
 
 
 $(window).on('load', function () {
-	var element = $(".news,.insta,.tweet, .paint");
+	var element = $(".news,.insta,.tweet, .paint, .programmer");
 	element.each(function () {
 		var text = $(this).text();
 		var textbox = '';
