@@ -111,7 +111,10 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
     justify-content: flex-end;
+    -webkit-animation: openingKv 5s ease both;
+    animation: openingKv 5s ease both;
   }
+
   
   @media screen and (max-width:600px) {
     .main-visual {
@@ -119,3 +122,153 @@
       width: 100%;
     }
   }
+
+  .details {
+      color: white;
+      text-align: center;
+      margin: 50px;
+      font-weight: bold;
+      font-family: 'Saira Condensed', sans-serif;
+  }
+
+  @media screen and (max-width:600px) {
+      .details {
+          font-size: 16px;
+          font-weight: bold;
+          font-family: 'Saira Condensed', sans-serif;
+      }
+  }
+
+  .card-text {
+      font-size: 13px;
+      font-family: 'Saira Condensed', sans-serif;
+  }
+
+  .card-title {
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+      font-family: 'Saira Condensed', sans-serif;
+  }
+
+  .btn {
+      display: block;
+      margin: 0 auto;
+      font-weight: bold;
+      font-family: 'Saira Condensed', sans-serif;
+      transition: all 0.4s ease-out;
+  }
+
+  .btn:hover{
+    border-color:transparent;
+    color: #fff;
+    background: linear-gradient(270deg, #fa6c9f 0%, #ffe140 50%, #ff357f 100%);
+    background-size: 200% auto;
+    background-position: right center; 
+    box-shadow: 0 5px 10px rgb(250,108,159,0.4);
+}
+
+  .paint{
+    margin: 60px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'Saira Condensed', sans-serif;
+  }
+  .box img {
+    width:50%;
+    height: 510px;
+    /* text-align: center; */
+    flex: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-decoration: none;
+    list-style: none;
+  }
+  .box > li {
+    text-decoration: none;
+    list-style: none;
+  }
+  .box{
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  @media screen and (max-width:600px) {
+    .box img {
+      width:50%;
+      height: 310px;
+      margin: 10px;
+    }
+  }
+
+  .gradient4{
+    display: inline-block;
+    padding: 18px 60px;  
+    border-radius:5px;
+    text-decoration: none;
+    border:1px solid white;
+    color:white;
+    outline: none;
+    font-family: 'Saira Condensed', sans-serif;
+    transition: all 0.4s ease-out;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.gradient4:hover{
+    border-color:transparent;
+    color: #fff;
+    background: linear-gradient(270deg, #fa6c9f 0%, #ffe140 50%, #ff357f 100%);
+    background-size: 200% auto;
+    background-position: right center; 
+    box-shadow: 0 5px 10px rgb(250,108,159,0.4);
+}
+
+.choice {
+    display: inline-block;
+    /* flex-direction: column; */
+    text-align: center;
+    background-color: gray;
+}
+
+.guide {
+    color: white;
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: bo;
+    text-align: center;
+    margin: 40px;
+}
+
+.gradient3{
+    display: inline-block;
+    /* flex-direction: column; */
+    text-align: center;
+    padding: 20px 40px;  
+    border-radius:5px;
+    text-decoration: none;
+    border:1px solid white;
+    color:white;
+    background-color: black;
+    outline: none;
+    font-family: 'Saira Condensed', sans-serif;
+    transition: all 0.4s ease-out;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 40em;
+}
+
+.gradient3:hover{
+    border-color:transparent;
+    color: #fff;
+    background: linear-gradient(270deg, #fa6c9f 0%, #ffe140 50%, #ff357f 100%);
+    background-size: 200% auto;
+    background-position:  center; 
+    box-shadow: 0 5px 10px rgb(250,108,159,0.4);
+}
+
+@media screen and (max-width:600px) {
+    .gradient3 {
+        width: 30em;
+    }
+}
