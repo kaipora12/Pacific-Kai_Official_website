@@ -93,3 +93,36 @@
     font-size: 30px;
     font-family: 'Oswald', sans-serif;
   }
+
+  .wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .item {
+    padding: 30px;
+    width: 32%;
+    background-color: #fff;
+  }
+  
+  @media not all and (min-width: 768px) {
+    .item {
+      width: 100%;
+    }
+  
+    .item:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+
+
+  
+  .img { 
+     width:50%; 
+    height: 510px;
+    /* /* flex: center; */
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+  }
