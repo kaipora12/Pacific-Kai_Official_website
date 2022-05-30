@@ -1,7 +1,7 @@
 function delayScrollAnime() {
 	var time = 0.2;
 	var value = time;
-	$('.top-topics, .second-topics, .third-topics').each(function () {
+	$('.top-topics, .second-topics, .third-topics, .forth-topics').each(function () {
 		var parent = this;
 		var elemPos = $(this).offset().top;
 		var scroll = $(window).scrollTop();

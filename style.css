@@ -121,7 +121,7 @@ height: 90px;
 
 @media screen and (max-width:600px) {
   .main-visual {
-    height:60vh ;
+    height:30vh ;
     width: 100%;
   }
 }
@@ -275,7 +275,7 @@ height: 90px;
 
 @media screen and (max-width:600px) {
   .box img {
-    width:50%;
+    width:80%;
     height: 310px;
   }
 }
@@ -315,7 +315,7 @@ height: 90px;
 
 @media screen and (max-width:600px) {
   .box2 img {
-    width:50%;
+    width:80%;
     height: 310px;
   }
 }
