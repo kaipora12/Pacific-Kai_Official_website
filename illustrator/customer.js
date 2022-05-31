@@ -1,5 +1,5 @@
 function TextRandomAnimeControl() {
-	$('.customer ').each(function () {
+	$('.h1 ').each(function () {
 		var elemPos = $(this).offset().top - 50;
 		var scroll = $(window).scrollTop();
 		var windowHeight = $(window).height();
@@ -18,7 +18,7 @@ $(window).scroll(function () {
 
 
 $(window).on('load', function () {
-	var element = $(".customer ");
+	var element = $(".h1");
 	element.each(function () {
 		var text = $(this).text();
 		var textbox = '';
