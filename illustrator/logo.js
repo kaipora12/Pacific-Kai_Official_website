@@ -1,5 +1,5 @@
 function TextRandomAnimeControl() {
-	$('.paint, .guide ').each(function () {
+	$('.ilust').each(function () {
 		var elemPos = $(this).offset().top - 50;
 		var scroll = $(window).scrollTop();
 		var windowHeight = $(window).height();
@@ -18,7 +18,7 @@ $(window).scroll(function () {
 
 
 $(window).on('load', function () {
-	var element = $(".paint, .guide ");
+	var element = $(".ilust");
 	element.each(function () {
 		var text = $(this).text();
 		var textbox = '';
@@ -30,4 +30,3 @@ $(window).on('load', function () {
 
 	TextRandomAnimeControl();
 });
-

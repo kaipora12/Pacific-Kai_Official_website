@@ -94,82 +94,51 @@
     font-family: 'Oswald', sans-serif;
   }
 
-  /* .galley { */
-    
-  /* } */
+  .ilust {
+      color: white;
+      font-size: 50px;
+      font-family: 'Oswald', sans-serif;
+      font-weight: bold;
+      margin-bottom: 50px;
+  }
 
-.box {
-	display: flex;
-	justify-content: space-between;
-  text-align: center;
+  .card-deck {
+      margin-bottom: 50px;
+      font-family: 'Saira Condensed', sans-serif;
+  }
+
+  .btn {
+    display: block;
+    margin: 0 auto;
+    font-weight: bold;
+    font-family: 'Saira Condensed', sans-serif;
+    transition: all 0.4s ease-out;
 }
 
-.box img {
-  width:95%;
-  height: 400px;
-  margin-bottom: 20px;
+.btn:hover{
+  border-color:transparent;
+  color: #fff;
+  background: linear-gradient(270deg, blue 0%, aqua 50%, steelblue 100%);
+  background-size: 200% auto;
+  background-position: right center; 
+  box-shadow: 0 5px 10px rgb(250,108,159,0.4);
 }
 
-.box2 {
-  display: flex;
-	justify-content: space-between;
-  text-align: center;
-}
-
-.box2 img {
-  width: 110%;
-  height: 300px;
-  margin-bottom: 20px;
-}
-
-.box3 {
-  display: flex;
-	/* justify-content: space-between; */
-
-  text-align: left;
-}
-
-.box3 img {
-  width: 95%;
-  height: 300px;
-  margin-bottom: 20px;
+.ilust,span{
+    opacity: 0;
+  }
+  .ilust, .appearRandomtext span{ 
+    animation:text_randomanime_on .5s ease-out forwards;
+  }
   
-}
-
-@media screen and (max-width:600px) {
-  .box {
-    display: block;
-    text-align: center;
+  @keyframes text_randomanime_on {
+    0% {opacity:0;}
+    100% {opacity:1;}
   }
-  .box2 {
-    display: block;
-    width: 95%;
-    /* margin: 0 auto; */
-    text-align: center;
+  
+  .ilust, .appearRandomtext span:nth-child(2n) {
+    animation-delay: .5s;
   }
-}
-
-.art {
-  color: white;
-  font-family: 'Saira Condensed', sans-serif;
-  margin-left: 20px;
-}
-
-.art, span{
-  opacity: 0;
-}
-.art,.appearRandomtext span{ 
-  animation:text_randomanime_on .5s ease-out forwards;
-}
-
-@keyframes text_randomanime_on {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-.art,.appearRandomtext span:nth-child(2n) {
-  animation-delay: .5s;
-}
-.art,.appearRandomtext span:nth-child(3n+1) {
-  animation-delay: .15s;
-}
+  .ilust, .appearRandomtext span:nth-child(3n+1) {
+    animation-delay: .15s;
+  }

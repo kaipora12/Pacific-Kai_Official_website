@@ -279,3 +279,22 @@
         width: 20em;
     }
 }
+
+.paint,.guide,.details,span{
+  opacity: 0;
+}
+.paint,.guide,.details, .appearRandomtext span{ 
+  animation:text_randomanime_on .5s ease-out forwards;
+}
+
+@keyframes text_randomanime_on {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+.paint, .guide, .details, .appearRandomtext span:nth-child(2n) {
+  animation-delay: .5s;
+}
+.paint, .guide, .details, .appearRandomtext span:nth-child(3n+1) {
+  animation-delay: .15s;
+}
